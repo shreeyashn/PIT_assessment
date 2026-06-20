@@ -10,7 +10,6 @@ export default defineConfig({
     ['list'],
     ['html', { outputFolder: 'playwright-report', open: 'on-failure' }],
   ],
-  // The Jupiter Toys demo server can take 5–10 s under load; all timeouts are raised accordingly.
   timeout: 60_000,
   expect: { timeout: 20_000 },
   use: {
