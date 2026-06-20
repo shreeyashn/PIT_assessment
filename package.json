@@ -1,0 +1,24 @@
+{
+  "name": "pit_assessment",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report",
+    "lint": "eslint tests/ pages/ pageobjects/ base/ fixtures/ testdata/",
+    "lint:fix": "eslint tests/ pages/ pageobjects/ base/ fixtures/ testdata/ --fix"
+  },
+  "keywords": [],
+  "author": "Shreeyash Nichkawade",
+  "license": "ISC",
+  "description": "PIT assessment using Playwright with TypeScript.",
+  "devDependencies": {
+    "@playwright/test": "^1.61.0",
+    "@types/node": "^25.9.3",
+    "@typescript-eslint/eslint-plugin": "^8.61.1",
+    "@typescript-eslint/parser": "^8.61.1",
+    "eslint": "^10.5.0",
+    "eslint-plugin-playwright": "^2.10.4"
+  }
+}
